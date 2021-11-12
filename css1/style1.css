@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*img{
+	max-width: 100%;
+    height: auto;
+}*/
+
+#TAN{
+	font-size: 80px;
+    line-height: 52px;
+    color: #016087;
+	text-align: center;
+	font-family: Recoleta,Georgia,"Times New Roman",Times,serif;
+	flex: 60%;
+	/*padding: 165 0 0 0;*/
+}
+#background_container{
+	display: flex;
+	flex-wrap: nowrap;
+}
+#background_img{
+	flex: 40%;
+	opacity: 0.5;
+	width: 40%;
+}
+
+#chuthich{
+	font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	color: #23354b;
+}
+#profile1_doanloi{
+	/*padding: 250 500 250 250;*/
+	background-color: #23354B;
+}
+nav{
+	background-color:white;
+	overflow: hidden;
+}
+nav a{
+	color: #D52C82;
+	padding: 14px 20px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	background-color: white;
+	float: right;
+	font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	width: 5%;
+}
+nav a:hover{
+	background-color: white;
+	color: #547b8c;
+}
+#doanloi_title{
+	text-align: center;
+	font-family: Recoleta,Georgia,"Times New Roman",Times,serif;
+	color: white;
+	padding: 50 0 0 0;
+}
+#doanloi_avatar{
+	width: 30%;
+	padding: 20 0 10 10;
+}
+#vietha_title{
+	text-align: center;
+	font-family: Recoleta,Georgia,"Times New Roman",Times,serif;
+	color: #23354B;
+	padding: 50 0 0 0;
+}
+#vietha_avatar{
+	width: 30%;
+	padding: 20 0 10 10;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 800px){
+	
+
+}
