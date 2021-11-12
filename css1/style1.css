@@ -31,10 +31,6 @@
 	font-size: 20px;
 	color: #23354b;
 }
-#profile1_doanloi{
-	/*padding: 250 500 250 250;*/
-	background-color: #23354B;
-}
 nav{
 	background-color:white;
 	overflow: hidden;
@@ -55,6 +51,15 @@ nav a:hover{
 	background-color: white;
 	color: #547b8c;
 }
+#chiabocucchinh{
+	display: flex;
+	flex-wrap: wrap;
+}
+#profile1_doanloi{
+	/*padding: 250 500 250 250;*/
+	background-color: #23354B;
+	flex:100%;
+}
 #doanloi_title{
 	text-align: center;
 	font-family: Recoleta,Georgia,"Times New Roman",Times,serif;
@@ -65,16 +70,38 @@ nav a:hover{
 	width: 30%;
 	padding: 20 0 10 10;
 }
+#profile2_vietha{
+	/*padding: 250 500 250 250;*/
+	background-color: #000000;
+	flex:100%;
+}
 #vietha_title{
 	text-align: center;
 	font-family: Recoleta,Georgia,"Times New Roman",Times,serif;
-	color: #23354B;
+	color: white;
 	padding: 50 0 0 0;
 }
 #vietha_avatar{
 	width: 30%;
-	padding: 20 0 10 10;
+	padding: 20 10 10 0;
 	float: right;
+}
+#profile3_bathao{
+	/*padding: 250 500 250 250;*/
+	background-color: #23354B;
+	flex:100%;
+}
+#bathao_title{
+	text-align: center;
+	font-family: Recoleta,Georgia,"Times New Roman",Times,serif;
+	color: white;
+	padding: 50 0 0 0;
+	flex:100%;
+}
+#bathao_avatar{
+	width: 30%;
+	padding: 20 0 10 10;
+	float: left;
 }
 
 
